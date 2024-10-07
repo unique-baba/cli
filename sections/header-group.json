@@ -1,0 +1,66 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "ca4d6cbc-4fd0-4793-8d7d-36eb25660a37": {
+          "type": "column",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/liquid_banner1.webp",
+            "product_text": "Delicious, No Waste Recipe Ideas You've Never Thought of For Earth Day"
+          }
+        },
+        "4642d178-85a8-4198-b670-2c0dfaf79f44": {
+          "type": "column",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/liquid_banner1.webp",
+            "product_text": "\"Water is A Source of Change\": MAP International and Liquid I.V. Work with Liberian Communities to Address the Clean Water Crisis"
+          }
+        }
+      },
+      "block_order": [
+        "ca4d6cbc-4fd0-4793-8d7d-36eb25660a37",
+        "4642d178-85a8-4198-b670-2c0dfaf79f44"
+      ],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "header",
+    "announcement-bar"
+  ]
+}
